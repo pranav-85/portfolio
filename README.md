@@ -14,9 +14,8 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: React.js, CSS3
+- **Frontend**: React.js, CSS
 - **Routing**: React Router
-- **Backend Integration** (Optional): Flask/Django (if used for form submission)
 - **Version Control**: Git and GitHub
 
 ---
