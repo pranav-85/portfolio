@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    font-family: "Rubik", serif;
+    font-size: larger;
+    margin-bottom: 7vh;
+    font-size: 2.5vh;
+    flex-wrap: wrap;
+}
+
+.about h1, h2{
+    color: #33bcbc;
+    font-weight: 800;
+}
+
+.about h3{
+    color: #035a5ae2;
+}
+
+.about b{
+    color: #035a5ae2;
+}

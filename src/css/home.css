@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.container {
+    font-family: "Rubik", serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 2rem;
+    margin-bottom: 20rem;
+    padding: 0 3rem;
+    position: relative;
+    top: 10vh;
+    transition: all 0.3s ease-in-out;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    gap: 20vw;
+}
+
+.container .hello-text {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0 1rem;
+    /* padding: 5rem 10rem; */
+}
+
+.container .hello-text p {
+    margin: 0.5rem 0;
+}
+
+.profile-pic {
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 0.5vw solid #5eccccc5;
+    border-radius: 50%;
+    content: url('./src/assets/bitmoji.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-pic img:hover {
+    border: 0.5vw solid #33bcbc;
+    content: url('./src/assets/bitmoji-hover-kiss.png');
+}
+
+.cursor {
+    color: #028b8b;
+    animation: blink 0.9s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.second-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.resume-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 1rem;
+    padding: 0.4rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #a2e8e84b;
+    background: #33bcbcdb;
+    position: relative;
+    top: 5vh;
+}
+
+.resume-download:hover{
+    background: #65afafea;
+    border: 2px solid #33bcbc;
+    cursor: pointer;
+}
+
+.resume-download img{
+    width: 2rem;
+    height: 2rem;
+}
+.role {
+    display: inline-block;
+    font-weight: bold;
+    color: #33bcbc;
+}
