@@ -6,9 +6,8 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 🌟 Features
 - **Dynamic Navigation**: Smooth and user-friendly navigation across multiple pages.
-- **Responsive Design**: Fully optimized for all screen sizes, from desktop to mobile.
+- **Responsive Design**: Responsive design for all screen sizes, from desktop to mobile.
 - **Project Highlights**: A dedicated section for showcasing my best projects with live links to their repositories.
-- **Contact Form**: Allows visitors to connect with me directly.
 - **Modern Tech Stack**: Built using React, styled with CSS, and powered by React Router for seamless page transitions.
 
 ---
