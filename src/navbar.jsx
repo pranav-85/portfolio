@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <>
             <header className={` ${isMenuOpen ? 'menu-open' : ''}`}>
-                <a className="logo" href='#'>
+                <a className="logo" href='/'>
 
                     <span>P</span>
                     <span>r</span>
