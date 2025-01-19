@@ -57,7 +57,7 @@ function Home() {
                 </div>
 
                 <div className="profile-pic">
-                    <img src="./src/assets/bitmoji.jpg" alt="pranav" />
+                    <img src="/assets/bitmoji-C0joG_aO.png" alt="pranav" />
                 </div>
             </section>
             
