@@ -9,7 +9,7 @@ function Home() {
     const [typingSpeed, setTypingSpeed] = useState(150);
 
     const handleDownload = () => {
-        const resumeUrl = 'public/resume.pdf'; // Path to your resume file
+        const resumeUrl = 'assets/resume.pdf'; // Path to your resume file
     
         const link = document.createElement('a'); // Create an invisible link
         link.href = resumeUrl;
