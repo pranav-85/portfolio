@@ -41,13 +41,13 @@
     object-fit: cover;
     border: 0.5vw solid #5eccccc5;
     border-radius: 50%;
-    content: url('./src/assets/bitmoji.png');
+    content: url('/assets/bitmoji.png');
     transition: all 0.3s ease-in-out;
 }
 
 .profile-pic img:hover {
     border: 0.5vw solid #33bcbc;
-    content: url('./src/assets/bitmoji-hover-kiss.png');
+    content: url('/assets/bitmoji-hover-kiss.png');
 }
 
 .cursor {
