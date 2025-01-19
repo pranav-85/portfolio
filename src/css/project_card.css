@@ -8,26 +8,27 @@
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 6px #59e6e6;
-    max-width: 400px;
+    max-width: 20vw;
     text-align: center;
     font-family: "Rubik", serif;
+    max-height:max-content;
 }
 
 .project-image img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 1vw;
 }
 
 .project-content h1 {
-    font-size: 1.6rem;
+    font-size: 1.6vw;
     margin-bottom: 10px;
     color: #035a5ae2;
 }
 
 .project-content p {
-    font-size: 1.3rem;
+    font-size: 1.3vw;
     margin-bottom: 15px;
     color: #555;
 }

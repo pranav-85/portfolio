@@ -9,13 +9,13 @@
   }
   
   .contact-page h1 {
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     margin-bottom: 1rem;
     color: #035a5ae2;
   }
   
   .contact-page p {
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     margin-bottom: 2rem ;
     color: #555;
     font-weight: bold;
@@ -23,7 +23,7 @@
   }
   
   #mail-id{
-    font-size: 2.5rem;
+    font-size: 1.7vw;
     font-weight: 800;
     background: linear-gradient(90deg, #1d9999, #53c4c4, #51aaaa);
     -webkit-background-clip: text;
