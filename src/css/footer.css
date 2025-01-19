@@ -18,7 +18,7 @@ footer {
     font-weight: bold;
     position: relative;
     width: 95%;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: #33bcbc;
 }
 
@@ -64,8 +64,8 @@ footer {
 }
 
 .mail-id img{
-    width: 2rem;
-    height: 2rem;
+    width: 2vw;
+    height: 2vw;
 }
 
 .phone-number{
@@ -75,6 +75,40 @@ footer {
     align-items: center;
 }
 .phone-number img{
-    width: 2rem;
-    height: 2rem;
+    width: 2vw;
+    height: 2vw;
+}
+
+@media (max-width: 1024px){
+    footer {
+        font-size: 2vw;
+    }
+    .footer-content {
+        font-size: 2vw;
+    }
+    .mail-id img{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    .phone-number img{
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+}
+
+@media (max-width: 764px){
+    footer {
+        font-size: 3vw;
+    }
+    .footer-content {
+        font-size: 3vw;
+    }
+    .mail-id img{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    .phone-number img{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
 }

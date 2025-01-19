@@ -88,7 +88,12 @@ header .logo:hover {
         position: relative;
         /* bottom: 20vh;     */
     }
-
+    header .logo{
+        font-size: 4vw;
+        position: relative;
+        top: 5vh;
+        left: 10vw;
+    }
     .menu-icon {
         display: block;
         cursor: pointer;
@@ -120,6 +125,9 @@ header .logo:hover {
     .navbar ul li {
         margin: 1rem 0;
     }
+    .navbar ul li a {
+        font-size: 2.5vw;
+    }
 
     header.menu-open {
         flex-direction: column;
@@ -147,6 +155,11 @@ header .logo:hover {
     }
 
     .navbar ul li a {
-        font-size: 2rem;
+        font-size: 3vw;
+    }
+    header .logo{
+        position: relative;
+        top: 8vh;
+        font-size: 5vw;
     }
 }

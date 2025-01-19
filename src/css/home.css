@@ -99,3 +99,13 @@
     font-weight: bold;
     color: #33bcbc;
 }
+
+@media (max-width: 764px){
+    .container .hello-text{
+        font-size: 5vw;
+    }
+
+    .resume-download{
+        font-size: 3vw;
+    }
+}
